@@ -26,6 +26,10 @@ public class Nota {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+	@Override
+	public String toString() {
+		return "Nota [id=" + id + ", descricao=" + descricao + "]";
+	}
 	
 	
 
